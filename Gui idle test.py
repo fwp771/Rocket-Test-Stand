@@ -19,7 +19,6 @@ y = int(canvas_height / 2)
 
 #w.create_line(0, y, canvas_width, y)
 def Graph_Generator():   
-    plt.clear()
 
     # get random dta to visualize normal distribution data
     normal_dev=np.random.normal(200000,25000,2000)
